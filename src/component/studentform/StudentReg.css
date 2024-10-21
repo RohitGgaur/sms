@@ -1,0 +1,47 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Ensure the body takes full height */
+  body, html {
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styling for the student-form container */
+  .student-form {
+    display: flex;
+    align-items: flex-start; /* Align content to the top */
+    justify-content: flex-start; /* Align content to the left */
+    padding: 40px; /* Add some padding for better visibility */
+   
+    height: 100vh; /* Ensure it takes the full height of the viewport */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+  }
+  
+  /* Optional: Styling for the heading */
+  .heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+  }
+  .h3 {
+    margin: 0px;
+    font-size: 24px;
+  }
+  .part-name h5{
+    position: absolute; /* Take the element out of normal flow */
+    top: 20px; /* Adjust to position it from the top */
+    left: 0; /* Align it to the left edge of the page */
+    padding-left: 20px;
+    margin-top: 10px;
+
+  }
+  

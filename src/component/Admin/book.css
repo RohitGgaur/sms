@@ -1,0 +1,50 @@
+.books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust the minimum width as needed */
+    gap: 16px; /* Space between the grid items */
+    padding: 16px; /* Padding around the grid */
+  }
+  
+  .book-card {
+    border: 2px solid black;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-left: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-card figure {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .book-card img {
+    width: 100%;
+    height: 40vh;
+    display: block;
+  }
+  
+  .card-body {
+    padding: 16px;
+    
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 8px;
+  }
+  
+  .badge {
+    margin-left: 8px;
+  }
+  
+  .card-actions {
+    margin-top: 16px;
+  }
+  
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  
